@@ -8,7 +8,7 @@ BotMan driver to connect WhatsApp with [BotMan](https://github.com/botman/botman
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within BotMan, please send an e-mail to Luis Eduardo at luis.sobrinho@voipforall.com.br. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within BotMan, please send an e-mail to Luis Eduardo at ads.luis.sobrinho@gmail.com. All security vulnerabilities will be promptly addressed.
 
 ## License
 
