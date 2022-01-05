@@ -1,0 +1,50 @@
+{
+    "name": "voipforall/driver-whatsapp",
+    "version": "0.0.1",
+    "license": "MIT",
+    "description": "WhatsApp driver for BotMan",
+    "keywords": [
+        "Bot",
+        "BotMan",
+        "WhatsApp"
+    ],
+    "homepage": "https://github.com/luissobrinho/driver-whatsapp",
+    "authors": [
+        {
+            "name": "Luis Eduardo Altino",
+            "email": "luis.sobrinho@voipforall.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "botman/botman": "^2.0"
+    },
+    "require-dev": {
+        "botman/studio-addons": "^1.0",
+        "illuminate/contracts": "^5.5",
+        "phpunit/phpunit": "^9.5.11",
+        "mockery/mockery": "^1.1",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BotMan\\Drivers\\WhatsApp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "cs": "php-cs-fixer fix"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BotMan\\Drivers\\WhatsApp\\Providers\\WhatsAppServiceProvider"
+            ]
+        }
+    }
+}
